@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp-FAQ-Sections v0.0.1\n"
+"Project-Id-Version: WP FAQ-Sections v0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-07-30 14:51:03+0000\n"
+"PO-Revision-Date: 2013-07-31 08:51:23+0000\n"
 "Last-Translator: admin <joern@flyingletters.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,18 +20,54 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: wp-faq-sections.php:73
+#: wp-faq-sections.php:76
 #@ wpfsec
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-faq-sections.php:74
+#: wp-faq-sections.php:77
 #@ wpfsec
 msgid "Add FAQs to Your site."
 msgstr "FAQs für Ihren Blog."
 
-#: wp-faq-sections.php:100
+#: wp-faq-sections.php:103
 #@ wpfsec
 msgid "FAQ Sections"
 msgstr "FAQ-Sektionen"
+
+#. translators: plugin header field 'Name'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "WP FAQ-Sections"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "https://github.com/mcguffin/wp-faq-sections"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "Edit FAQs in Wordpress."
+msgstr "FAQs in Wordpress bearbeiten."
+
+#. translators: plugin header field 'Author'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "Joern Lund"
+msgstr "Jörn Lund"
+
+#. translators: plugin header field 'AuthorURI'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "https://github.com/mcguffin"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: wp-faq-sections.php:0
+#@ wpfsec
+msgid "0.0.1"
+msgstr ""
 

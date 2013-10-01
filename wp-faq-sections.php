@@ -5,12 +5,15 @@
 */
 
 /*
-Plugin Name: wp-FAQ-Sections
+Plugin Name: WP FAQ-Sections
 Plugin URI: https://github.com/mcguffin/wp-faq-sections
-Description: FAQs.
+Description: Edit FAQs in Wordpress.
 Author: Joern Lund
 Version: 0.0.1
 Author URI: https://github.com/mcguffin
+
+Text Domain: wpfsec
+Domain Path: /lang/
 */
 
 
