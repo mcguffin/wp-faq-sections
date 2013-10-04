@@ -70,8 +70,6 @@ function wpfsec_print_faq( $atts , $content ) {
 
 function wpfsec_init() {
 
-	
-	
 	register_post_type( 'faq' , array(
 		'label' 		=> __( 'FAQ' , 'wpfsec' ),
 		'description' 	=> __( 'Add FAQs to Your site.' , 'wpfsec' ),
@@ -110,7 +108,7 @@ function wpfsec_init() {
 	) );
 	
 	add_shortcode('faq','wpfsec_print_faq');
-	
+
 }
 
 //
@@ -128,7 +126,7 @@ function dump(){
 add_action('init' , 'wpfsec_init' );
 add_action('plugins_loaded' , 'wpfsec_plugins_loaded' );
 function wpfsec_plugins_loaded() {
-	load_plugin_textdomain( 'wpfsec' , false , dirname(__FILE__) . '/lang/' );
+	load_plugin_textdomain( 'wpfsec' , false, dirname(plugin_basename( __FILE__ )) . '/lang');
 }
 if ( is_admin() ) {
 	register_activation_hook( __FILE__ , 'wpfsec_flush_rewrite' );
